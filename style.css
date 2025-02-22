@@ -1,0 +1,39 @@
+body {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: rgb(130, 130, 190);
+}
+
+.First-one {
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+  height: 500px;
+  padding: 10px 10px;
+  border-radius: 20px;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image img {
+  border-radius: 20px;
+  width: 300px;
+}
+
+.words {
+  display: relative;
+}
+
+.words h1 {
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(42, 39, 43);
+}
+
+.words p {
+  color: rgb(36, 40, 44);
+}
